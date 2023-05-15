@@ -12,7 +12,7 @@ import { useEffect } from 'react';
 
 function App() {
 function mapa(){
-  
+
   esriConfig.apiKey = "AAPK3a46155e72e141f7a1e526779e26ee9eAjXhDfndw1NljGMOgVuF26eFX3-eeUXZZOyG1ndpeWqpSuegyvOx67wvbav2qGrx";
     // const containerMap = useRef();
   
@@ -23,7 +23,7 @@ function mapa(){
     const view = new MapView({
       map: map,
       center: [ -74.1031707204775,4.686182163946811],
-      zoom: 6,
+      zoom: 10,
       container:"map"
     });
 }
